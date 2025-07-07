@@ -35,7 +35,7 @@ const VisionPage = () => {
           padding: 30px 25px;
           border-radius: 12px;
           box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-          font-size: 16px;
+          font-size: 18px;
           line-height: 1.6;
           color: #333;
         }

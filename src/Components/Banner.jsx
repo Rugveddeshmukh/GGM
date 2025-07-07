@@ -87,8 +87,8 @@ const Banner = () => {
           className="gun-icon"
           style={{
             position: 'absolute',
-            top: '28%',
-            left: '9%',
+            top: '27%',
+            left: '10%',
             width: '90px',
             zIndex: 1,
           }}

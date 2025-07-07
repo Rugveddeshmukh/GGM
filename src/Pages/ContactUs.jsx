@@ -51,6 +51,7 @@ const ContactSection = () => {
       border: '2px solid #000',
       backgroundColor: 'transparent',
       marginBottom: '10px',
+      
     },
     formRow: {
       display: 'flex',
@@ -66,6 +67,8 @@ const ContactSection = () => {
       border: '2px solid #000',
       backgroundColor: 'transparent',
       marginBottom: '10px',
+      
+      
     },
     submitButton: {
       width: '70px',
@@ -132,6 +135,16 @@ const ContactSection = () => {
     <>
       {/* Responsive Styles */}
       <style>{`
+        input,
+          textarea {
+          color: #000 !important;
+        }
+
+          input::placeholder,
+          textarea::placeholder {
+          color: #000 !important;
+          opacity: 1 !important;
+        }
         @media (max-width: 1024px) {
           .formContainer {
             left: 50% !important;
